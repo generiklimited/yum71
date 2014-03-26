@@ -1,0 +1,10 @@
+#   git config --global core.excludesfile ~/.gitignore_global
+Gemfile.lock
+# Ignore bundler config
+/.bundle
+
+repos/
+~$
+*.swp
+*.un~
+
