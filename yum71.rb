@@ -11,7 +11,7 @@ module Yum71
         YumRepo::PackageList.new repo
       end
     end
-    resource :jenkins do
+    resource :get do
       desc "Available versions of a package"
       params do
         requires :name, type: String, desc: "Package name"
