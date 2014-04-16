@@ -1,3 +1,3 @@
 require 'grape'
-load 'sr71.rb'
-run Sr71::API
+load 'yum71.rb'
+run Yum71::API
