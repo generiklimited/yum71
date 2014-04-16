@@ -31,7 +31,7 @@ We have created a free endpoint for you to test it at http://yum71.herokuapp.com
 
 Example usage :
 ```
-       curl "http://yum71.herokuapp.com/jenkins/package_versions.json?name=ruby&repo=http://public-yum.oracle.com/repo/EnterpriseLinux/EL4/6/base/x86_64/"
+       curl "http://yum71.herokuapp.com/get/package_versions.json?name=ruby&repo=http://public-yum.oracle.com/repo/EnterpriseLinux/EL4/6/base/x86_64/"
 ```
 
 
