@@ -1,4 +1,4 @@
-load 'sr71.rb'
+load 'yum71.rb'
 
 desc "API Routes"
 task :routes do
